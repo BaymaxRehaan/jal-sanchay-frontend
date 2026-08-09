@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { TopPanel } from "./TopPanel";
 import { MapSection } from "./MapSection";
 import { ChartModal } from "./ChartModal";
-
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+const BACKEND_URL = import.meta.env.VITE_SATELLITE_BACKEND_URL;
 
 export default function MapWithTimeseries() {
 
