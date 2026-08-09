@@ -1,0 +1,2 @@
+Place static assets (images, icons, fonts) in this folder.
+Import them in components like: import logo from '../assets/logo.svg';
