@@ -9,11 +9,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
-
-import axios from "axios";
-
-const API = axios.create({
-  baseURL: "http://localhost:5000",
-});
-
-export default API;
