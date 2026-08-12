@@ -173,7 +173,7 @@ function Students() {
             fontWeight: "700",
           }}
         >
-          Student Coordinators
+          Student Contributors
         </h2>
       </div>
       <div style={{ overflow: "hidden" }}>
