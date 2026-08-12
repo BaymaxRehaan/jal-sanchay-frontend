@@ -57,27 +57,37 @@ function Team() {
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <strong style={{ color: "#eaf5f6" }}>Dr Suneetha Manne</strong>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Dr Suneetha Manne</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "180px" }}>
+                Principal Investigator, Dean (Research, Development & Technology)<br />
+                Professor & Head, Department of Artificial Intelligence, Siddhartha Academy of Higher Education, Vijayawada
+              </span>
             </div>
 
-            {/* Empty slot */}
+            {/* Dr. Girish S Pujar */}
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "12px" }}>
               <div
                 style={{
-                  width: 120,
-                  height: 120,
+                  width: 145,
+                  height: 145,
                   borderRadius: "50%",
                   background: "#0b4d78",
+                  overflow: "hidden",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: "2.5rem",
-                  color: "#eaf5f6",
                 }}
               >
-                👤
+                <img
+                  src="/isro-sir.jpeg"
+                  alt="Dr. Girish S Pujar"
+                  style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.1)" }}
+                />
               </div>
-              <strong style={{ color: "#eaf5f6" }}>Person 1</strong>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Dr. Girish S Pujar</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "180px" }}>
+                Indian Space Research Organisation (ISRO), Bangalore
+              </span>
             </div>
           </div>
 
@@ -91,8 +101,48 @@ function Team() {
             }}
           />
 
-          {/* Right side — empty, reserved */}
-          <div style={{ paddingLeft: "40px" }} />
+          {/* Right side — 4 people in 2x2 grid */}
+          <div style={{
+            paddingLeft: "40px",
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gap: "36px",
+            justifyItems: "center",
+          }}>
+
+            {/* Dr. Radhesyam Vaddi */}
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Dr. Radhesyam Vaddi</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "160px" }}>
+                Investigator, Associate Professor, Dept. of AI, Siddhartha Academy of Higher Education, Vijayawada
+              </span>
+            </div>
+
+            {/* Dr. Veeramallu Satya Sahithi */}
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Dr. Veeramallu Satya Sahithi</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "160px" }}>
+                Investigator, Assistant Professor, Dept. of AI, Siddhartha Academy of Higher Education, Vijayawada
+              </span>
+            </div>
+
+            {/* Hemanth Cheepulla */}
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Hemanth Cheepulla</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "160px" }}>
+                Project Associate, Dept. of AI, Siddhartha Academy of Higher Education, Vijayawada
+              </span>
+            </div>
+
+            {/* Dr. MSR Murthy */}
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
+              <strong style={{ color: "#eaf5f6", fontSize: "1rem" }}>Dr. MSR Murthy</strong>
+              <span style={{ color: "#9bbfcc", fontSize: "0.78rem", textAlign: "center", maxWidth: "160px" }}>
+                Academic Advisor, Siddhartha Academy of Higher Education, Vijayawada
+              </span>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
@@ -120,9 +170,10 @@ function Students() {
             fontFamily: "Georgia, serif",
             color: "#061b32",
             fontSize: "clamp(1.4rem, 2.5vw, 2.2rem)",
+            fontWeight: "700",
           }}
         >
-          Students
+          Student Coordinators
         </h2>
       </div>
       <div style={{ overflow: "hidden" }}>
