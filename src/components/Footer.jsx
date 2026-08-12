@@ -20,7 +20,6 @@ export default function Footer() {
             <h4>Navigate</h4>
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#capabilities">Capabilities</a>
             <a href="#contact">Contact</a>
           </div>
 
@@ -30,8 +29,7 @@ export default function Footer() {
             <a href="https://www.isro.gov.in/" target="_blank" rel="noreferrer">
               ISRO
             </a>
-            <a href="#">Siddhartha Academy</a>
-            <a href="#">Project acknowledgements</a>
+            <a href="#">Siddhartha Academy of Higher Education</a>
           </div>
 
           {/* Contact */}
