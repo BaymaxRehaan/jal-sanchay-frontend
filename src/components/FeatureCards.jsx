@@ -5,7 +5,7 @@ const features = [
   {
     icon: "◌",
     title: "About & Help",
-    description: "Learn more about our platform and get the support you needed.",
+    description: "Learn more about our platform and get the support you need.",
   },
   {
     icon: "▤",
@@ -17,7 +17,7 @@ const features = [
     icon: "∿",
     title: "Phenological Analytics",
     description:
-      "Analyze seasonal vegetation patterns using satellite-based phonological insights.",
+      "Analyze seasonal vegetation patterns using satellite-based phenological insights.",
   },
   {
     icon: "◒",
