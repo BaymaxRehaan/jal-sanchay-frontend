@@ -133,7 +133,7 @@ a {
       rgba(2, 30, 46, 0.54) 48%,
       rgba(2, 18, 31, 0.46) 100%
     ),
-    url("/background.jpg") center 55% / cover;
+    url("/farm-pond.jpeg") center 20% / cover;
   animation: flyover 22s ease-in-out infinite alternate;
   transform-origin: center;
 }
