@@ -133,7 +133,7 @@ a {
       rgba(2, 30, 46, 0.54) 48%,
       rgba(2, 18, 31, 0.46) 100%
     ),
-    url("/farm-pond-hero.gif") center / cover;
+    url("/background.jpg") center 55% / cover;
   animation: flyover 22s ease-in-out infinite alternate;
   transform-origin: center;
 }
@@ -381,7 +381,7 @@ section:not(.hero) {
   border-radius: 28px;
   background:
     linear-gradient(rgba(10, 61, 72, 0.16), rgba(10, 61, 72, 0.16)),
-    url("/farm-pond-hero.gif") center / cover;
+    url("/farm-pond.jpeg") center / cover;
 }
 
 .pond-badge {
